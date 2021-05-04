@@ -6,4 +6,4 @@ description: |-
   Print out the helm environment.
 command: "$HELM_PLUGIN_DIR/env.sh"
 hooks:
-  install: "$HELM_PLUGIN_DIR/env.sh --help"
+  install: "$HELM_PLUGIN_DIR/updater.sh --help"
