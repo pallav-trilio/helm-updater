@@ -4,6 +4,7 @@ version: "0.1.0"
 usage: "print out the helm environment"
 description: |-
   Print out the helm environment.
-command: "$HELM_PLUGIN_DIR/env.sh"
+command: "$HELM_PLUGIN_DIR/exp.sh"
 hooks:
   install: "$HELM_PLUGIN_DIR/exp.sh --help"
+  update: "$HELM_PLUGIN_DIR/exp.sh --help"
